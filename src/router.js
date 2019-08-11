@@ -14,7 +14,7 @@ export default new Router({
     {
       path: '/task',
       name: 'TaskList',
-      component: () => import(/* webpackChunkName: "about" */ './views/TaskList.vue'),
+      component: () => import(/* webpackChunkName: "tasklist" */ './views/TaskList.vue'),
     },
   ],
 });
